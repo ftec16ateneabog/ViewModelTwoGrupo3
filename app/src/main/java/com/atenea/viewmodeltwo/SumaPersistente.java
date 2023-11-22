@@ -32,7 +32,7 @@ public class SumaPersistente extends AppCompatActivity {
         sumaButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                myViewModel.aumentar();
+                myViewModel.aumentar(Integer.parseInt(contadorTextView.getText().toString()));
             }
         });
 

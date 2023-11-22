@@ -15,7 +15,7 @@ public class MyViewModel extends ViewModel {
     {
         return result;
     }
-    public void aumentar(){
-        result.setValue(Model.aumentar());
+    public void aumentar(int data){
+        result.setValue(Model.aumentar(data));
     }
 }

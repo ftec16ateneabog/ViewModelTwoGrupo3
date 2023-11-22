@@ -1,10 +1,9 @@
 package com.atenea.viewmodeltwo.Persistencia;
 
 public class Model {
-    private static int i = 0;
-    public static int aumentar()
+    public static int aumentar(int data)
     {
-        i++;
-        return i;
+        data++;
+        return data;
     }
 }
